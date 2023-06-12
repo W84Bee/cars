@@ -1,6 +1,5 @@
 import {useDispatch, useSelector} from "react-redux";
 import { changeSearchTerm } from "../store";
-import * as events from "events";
 
 function CarSearch() {
     const dispatch = useDispatch();
